@@ -5,6 +5,7 @@
 FROM 1science/java:oracle-jre-8
 MAINTAINER Julien L
 
+ENV LANG C.UTF-8
 ENV SBT_VERSION 0.13.15
 ENV SBT_HOME /usr/local/sbt
 ENV PATH ${PATH}:${SBT_HOME}/bin
